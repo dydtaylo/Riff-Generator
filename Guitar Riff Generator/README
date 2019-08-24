@@ -1,0 +1,1 @@
+Generates Tablature (guitar sheet music) by conducting a statistical analysis on a set of input riffs and then generating new riffs until one is found that fits the statistical model
