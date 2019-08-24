@@ -1,0 +1,14 @@
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class TabulatorDriver extends JFrame{
+  
+  JPanel tabulator;
+  public TabulatorDriver(Riff riff){
+    super();
+    tabulator = new Tabulator(riff);
+    this.setSize(1200, 800);
+    this.add(tabulator);
+    this.setVisible(true);
+  }
+}
